@@ -1,0 +1,24 @@
+:root {
+    --bg-col: #191E29;
+    --dark-bg-col: #0B0E14;
+    --txt-col: #E1E8F5;
+    --n-col-l: #6f6f6f;
+    --n-col-d: #262626;
+    --pm-l: 100px; /*page margin left*/
+    --pm-r: 10px; /*page margin right*/
+    --pm-t: 50px; /*page margin top*/
+    --pm-b: 200px; /*page margin bottom*/
+}
+
+html, body {
+    background-color: var(--bg-col);
+    color: var(--txt-col);
+    font-size: var(--font-size);
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: var(--pm-t) var(--pm-r) var(--pm-b) var(--pm-l);
+}
